@@ -1,5 +1,8 @@
 /* General Body Styling */
 body {
+    background-image: url(https://www.pexels.com/photo/beige-concrete-building-70441/);
+    background-size: cover;
+    height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,4 +11,53 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f9;
+}
+
+/* header styling */
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* paragragh discription styling */
+#description{
+    font-size: small;
+    text-align: center;
+    color: gray;
+}
+
+/* form (name, email, number, dropdown, radio button, checkbox, textarea & submit buton) styling */
+.divs{
+    background: #f5e0ff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+/* class for select and input for name, email & number styling*/
+.space{
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* submit button */
+#submit{
+    /* color: #e8d8f0; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+/* Change the button's background color on hover for better visual feedback */
+button:hover {
+    background-color: #cdb0db;
 }
